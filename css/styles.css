@@ -3,6 +3,31 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+wm, a:visited, a:hover, a:active {
+  color: rgb(0, 113,220);
+  text-decoration: none;
+}
+
+ny, a:visited, a:hover, a:active {
+  color: rgb(254,101,160);
+  text-decoration: none;
+}
+
+dg, a:visited, a:hover, a:active {
+  color: rgb(14,25,39);
+  text-decoration: none;
+}
+
+fx, a:visited, a:hover, a:active {
+  color: #fa7d09;
+  text-decoration: none;
+}
+
+ks, a:visited, a:hover, a:active {
+  color: rgb(56, 169,160);
+  text-decoration: none;
+}
+
 p {
   font-family: Avenir-Medium;
   font-size: 18px;
@@ -36,42 +61,33 @@ html {
   background-image: initial;
   background: url(img/macbook-hero.jpg) no-repeat;
   background-size: cover;
-  height: 950px;
+  height: 500px;
   background-position: center;
 }
 
 .hero h1 {
   font-family: Avenir-Book;
-  font-size: 140px;
+  font-size: 110px;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .hero h2 {
   text-align: center;
   color: #fff;
   font-family: Menlo;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .first-name {
-  color: #fa7d09;
+  color: rgb(0, 113,220);
 }
-
 .last-name {
   color: #fff;
 }
 
-.portfolio h1 {
-  font-family: Avenir-Heavy;
-  font-size: 54px;
-  color: #fa7d09;
-  text-align: center;
-  margin-top: 200px;
-}
-
 .left-portfolio {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .app-icon {
@@ -80,20 +96,121 @@ html {
   margin-bottom: 10px;
 }
 
-.portfolio h2 {
+.portfolio w {
   font-family: Avenir-Roman;
   font-size: 50px;
-  color: rgb(100, 100,100);
+  color: rgb(0, 113,220);
   display: inline;
   margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio m {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(255, 194, 32);
+  display: inline;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+.portfolio nykt {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(254,101,160);
+  display: inline;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.portfolio kaa {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(252,106,99);
+  display: inline;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+.portfolio dgv {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(14,25,39);
+  display: inline;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.portfolio vale {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(213,195,135);
+  display: inline;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+.portfolio flx {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: #fa7d09;
+  display: inline;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.portfolio ksk {
+  font-family: Avenir-Roman;
+  font-size: 50px;
+  color: rgb(56, 169,160);
+  display: inline;
+  margin-left: 15px;
   vertical-align: middle;
 }
 
 .portfolio h3 {
   font-family: Avenir-Heavy;
   font-size: 26px;
+  color: rgb(0, 113,220);
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio h4 {
+  font-family: Avenir-Heavy;
+  font-size: 26px;
+  color: rgb(254,101,160);
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio h5 {
+  font-family: Avenir-Heavy;
+  font-size: 26px;
+  color: rgb(14,25,39);
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio h6 {
+  font-family: Avenir-Heavy;
+  font-size: 26px;
   color: #fa7d09;
-  margin-top: 50px;
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.portfolio h7 {
+  font-family: Avenir-Heavy;
+  font-size: 26px;
+  color: rgb(56, 169,160);
+  display: inline;
+  margin-left: 30px;
+  vertical-align: middle;
 }
 
 .app-store-button {
@@ -148,7 +265,7 @@ html {
 }
 
 .portfolio-row {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .fithero-disclaimer {
@@ -330,7 +447,7 @@ html {
 
 @media (max-width: 1199px) {
   .hero {
-    height: 800px;
+    height: 600px;
   }
 
   .hero h1 {
